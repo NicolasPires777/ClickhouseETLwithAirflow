@@ -31,9 +31,9 @@ This project automates the process of extracting data from one ClickHouse table 
 
 4. **Log In to Airflow**: Access the Airflow web interface at http://localhost:8080 and log in using the following credentials:
 
-    Username: airflow
+    Username: airflow  
     Password: airflow
 
 5. **Execute the DAG**: In the Airflow web interface, locate the DAG you created and manually trigger it or wait for it to run as per the scheduled interval.
 
-And you're all set! Your ETL process will now be managed and monitored through Apache Airflow.
+   And you're all set! Your ETL process will now be managed and monitored through Apache Airflow.
