@@ -1,0 +1,47 @@
+# Diretórios de configuração e logs
+airflow_local_settings.py
+logs/
+airflow.cfg
+unittests/
+*.db
+
+# Arquivos e diretórios do Docker
+docker-compose.override.yml
+docker-compose.override.*
+docker-compose.env
+*.env
+docker/
+.docker/
+
+# Diretórios e arquivos de dependências
+venv/
+.env/
+*.pyc
+__pycache__/
+
+# Diretórios e arquivos gerados por IDEs
+.idea/
+*.swp
+*.swo
+
+# Arquivos de cache e temporários
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Arquivos de configuração local e do usuário
+*.local
+*.settings
+
+# Diretórios específicos do Airflow
+airflow/airflow.db
+airflow/.mypy_cache/
+airflow/.pytest_cache/
+airflow/.tox/
+airflow/.coverage
+airflow/.coverage.*
+airflow/.nox/
+airflow/.
+
