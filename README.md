@@ -21,7 +21,7 @@ This project automates the process of extracting data from one ClickHouse table 
 
 ### Usage
 
-1. **Configure Connection to ClickHouse**: Fill in the ClickHouse connection details in the `.env` file. Ensure that you specify the `CLICKHOUSE_HOST`, `CLICKHOUSE_PORT`, `CLICKHOUSE_USER`, `CLICKHOUSE_PASSWORD`, `CLICKHOUSE_DATABASE`, `CLICKHOUSE_FROM_TABLE`, and `CLICKHOUSE_TO_TABLE` variables.
+1. **Configure Connection to ClickHouse**: Fill in the ClickHouse connection details in the `.env` file. Ensure that you specify the `CLICKHOUSE_HOST`, `CLICKHOUSE_PORT`, `CLICKHOUSE_USER`, `CLICKHOUSE_PASSWORD` and `CLICKHOUSE_DATABASE` variables.
 
 2. **Set Up Your DAG**: Define your data pipeline by configuring the DAG (Directed Acyclic Graph) in Airflow to handle your ETL process.
 
